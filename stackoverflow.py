@@ -7,7 +7,7 @@ from lxml import etree,html
 from lxml.html.clean import clean_html
 import datetime
 import time
-import json
+import pymongo
 
 key_word='storm'
 start_page=1
@@ -59,6 +59,11 @@ class Spider:
         tags = detail_page_dom.xpath('//div[@class="post-taglist"]/a[@class="post-tag"]/text()')
         answers = detail_page_dom.xpath('//div[starts-with(@id, "answer-")]')
         if len(answers) > 0:
+
+            client=pymongo.MongoClient('mongodb://123.207.148.247:27017/test_db')
+            db=client.test_db
+            collection=db.answers
+
             for answer in answers:
                 solution = answer.xpath('.//div[contains(@class, "answercell")]//div[@class="post-text"]')[0]
                 solution = etree.tostring(solution)
@@ -66,19 +71,21 @@ class Spider:
 
                 item = {}
                 item['title'] = title
-                item['symptom'] = symptom
+                item['symptom'] = str(symptom)
                 item['symptom_plain_text'] = symptom_plain_text
                 item['source_url'] = self.detail_url
                 item['tags'] = tags
                 item['language'] = ['en']
                 item['service'] = self.key_word
                 item['created_at'] =datetime.datetime.now()
-                item['solution'] = solution
+                item['solution'] = str(solution)
                 item['solution_plain_text'] = solution_plain_text
 
+                collection.insert_one(item)
                 print (item)
-            with open('../crawl_data.txt','w+') as f:
-                f.write(str(item))
+
+            #with open('../crawl_data.txt','w+') as f:
+            #    f.write(str(item))
         else:
             print ('no answer')
 
