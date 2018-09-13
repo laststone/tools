@@ -9,7 +9,7 @@ import datetime
 import time
 import pymongo
 
-key_word='storm'
+key_word='system'
 start_page=1
 page_size=30
 
@@ -41,7 +41,7 @@ class Spider:
         for detail_url in detail_page_url_list:
             detail_url='https://stackoverflow.com'+detail_url
             self.get_detail_page(detail_url)
-            time.sleep(1)
+            time.sleep(2)
 
     def get_detail_page(self,detail_url):
         self.detail_url=detail_url
@@ -55,18 +55,20 @@ class Spider:
         title = detail_page_dom.xpath('//div[@id="question-header"]//h1//a')[0].text
         symptom = detail_page_dom.xpath('//div[@class="question"]//div[@class="post-text"]')[0]
         symptom = etree.tostring(symptom)
+        symptom = symptom.decode()
         symptom_plain_text = self.get_plain_text(symptom)
         tags = detail_page_dom.xpath('//div[@class="post-taglist"]/a[@class="post-tag"]/text()')
         answers = detail_page_dom.xpath('//div[starts-with(@id, "answer-")]')
         if len(answers) > 0:
 
-            client=pymongo.MongoClient('mongodb://123.207.148.247:27017/test_db')
-            db=client.test_db
+            client=pymongo.MongoClient('mongodb://123.207.148.247:27017/system_db')
+            db=client.system_db
             collection=db.answers
 
             for answer in answers:
                 solution = answer.xpath('.//div[contains(@class, "answercell")]//div[@class="post-text"]')[0]
                 solution = etree.tostring(solution)
+                solution = solution.decode()
                 solution_plain_text = self.get_plain_text(solution)
 
                 item = {}
