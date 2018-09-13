@@ -4,13 +4,13 @@
 
 import pymongo
 
-client=pymongo.MongoClient("123.207.148.247",27017)
+client=pymongo.MongoClient("1.1.1.1",27017)
 db=client.zookeeper_db
 answers=db.answers
 cur=answers.find({},{"_id": 0},no_cursor_timeout = True)
 #cur=answers.getCollection('answers').find({})
 
-out_client=pymongo.MongoClient("188.131.131.58",27017)
+out_client=pymongo.MongoClient("2.2.2.2",27017)
 out_db=out_client.output_db
 out_cur=out_db.answers
 
