@@ -61,7 +61,7 @@ class Spider:
         answers = detail_page_dom.xpath('//div[starts-with(@id, "answer-")]')
         if len(answers) > 0:
 
-            client=pymongo.MongoClient('mongodb://123.207.148.247:27017/system_db')
+            client=pymongo.MongoClient('mongodb://172.21.16.6:27017/system_db')
             db=client.system_db
             collection=db.answers
 
