@@ -23,9 +23,11 @@ class Tsdb_Aggregare():
         self.mysql_pass = str(config.get('base','mysql_pass'))
         self.conn_db = str(config.get('base','conn_db'))
         self.cloud = config.get('base','cloud')
-        self.start_ts = config.get('base','start_ts')
-        self.end_ts = config.get('base','end_ts')
         self.tokent = config.get('base','token')
+
+        self.start_ts = int(time.mktime(time.strptime(str(datetime.date.today()-datetime.timedelta(days=self.start_time)), '%Y-%m-%d')))
+        self.end_ts = int(time.mktime(time.strptime(str(datetime.date.today()-datetime.timedelta(days=self.end_time)), '%Y-%m-%d'))) + 7200
+
 
     def __call__(self):
         if self.reget_tags == 'True':
@@ -132,8 +134,8 @@ class Tsdb_Aggregare():
     # 5.将metric和各个tag_key拼凑成各组合,去进行聚合,并对聚合后的数据按时间戳输出
     def aggregate_data_to_file(self,metric_startwith,metric_tag_dic,sys_m_list,sys_token):
         aggregate_url=self.opentsdb_url + "/api/query"
-        self.start_ts = int(time.time()-86400*int(self.start_time))
-        self.end_ts = int(time.time()-86400*int(self.end_time))
+        #self.start_ts = int(time.time()-86400*int(self.start_time))
+        #self.end_ts = int(time.time()-86400*int(self.end_time))
         #os.system('mv ../aggregate_data.json ../aggregate_data.json_old')
         f = open('../aggregate_data.json','a+')
         for sys_metric in sys_m_list:
