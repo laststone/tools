@@ -2,7 +2,7 @@
 
 ### 1. watch 
 ```
-watch ls /home/cento/opt/elasticsearch/bin/
+watch -n 5 ls /home/cento/opt/elasticsearch/bin/
 ```
 
 ### 2. for循环检测脚本
