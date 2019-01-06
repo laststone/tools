@@ -1,3 +1,2 @@
 Some test exercise!
 
-n
