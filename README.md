@@ -1,2 +1,2 @@
-Some test exercise!
+some test exercise!
 
