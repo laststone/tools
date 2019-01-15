@@ -2,5 +2,3 @@ some test exercise!
 
 
 # 
-W
-
