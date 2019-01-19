@@ -32,6 +32,7 @@ class influxdbExec():
 		while stop_ts <= int(time.time()):
 			print "do query per_day:" + str(start_ts) + "----->" + str(stop_ts)
 			self.parse_query(self.influxdb_table_list,start_ts,stop_ts)
+			start_ts = stop_ts
 			stop_ts = stop_ts + 36000
 		# when reach current query by interval
 		current_ts = int(time.time())
