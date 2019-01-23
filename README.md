@@ -2,6 +2,4 @@ some test exercise!
 
 
 # 
-#dhj
-hl
-
+#d
