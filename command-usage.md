@@ -30,3 +30,8 @@ vi /etc/fstab                          # 设置开启自动挂载
 ```
 unzip -qq xx.zip
 ```
+
+### 5.top + 1 查看CPU的核心数
+```
+top → 1
+```
