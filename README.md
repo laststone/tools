@@ -8,7 +8,6 @@ fd
 
 sa
 kg
-gj
 sh
 hf
 
