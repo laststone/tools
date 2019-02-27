@@ -7,8 +7,6 @@ fd
 
 
 sa
-kg
-sh
 hf
 
 a;s
