@@ -3,4 +3,5 @@ some test exercise!
 
 #
 s
-dd
+ddd
+c
