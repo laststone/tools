@@ -6,5 +6,5 @@ s
 ddd
 c
 ss
-ssss
+ss
 ss
