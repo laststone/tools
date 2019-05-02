@@ -5,6 +5,6 @@ some test exercise!
 s
 ddd
 c
-ssss
+ss
 ssss
 ssss
