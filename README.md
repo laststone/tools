@@ -3,7 +3,7 @@ some test exercise!
 
 #
 s
-ddd
+dd
 c
 ss
 ss
