@@ -2,5 +2,5 @@ some test exercise!
 
 
 #
-dd
+ddr
 ss
