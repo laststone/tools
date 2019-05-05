@@ -3,6 +3,6 @@ some test exercise!
 
 #
 ddrr
-sss
+ssss
 s
 s
