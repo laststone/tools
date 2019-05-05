@@ -4,5 +4,5 @@ some test exercise!
 #
 ddrr
 ssss
-sss
+ssss
 s
