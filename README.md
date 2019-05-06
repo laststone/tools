@@ -2,7 +2,7 @@ some test exercise!
 
 
 #
-dd
+d
 s
 s
 s
