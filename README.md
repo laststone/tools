@@ -2,7 +2,7 @@ some test exercise!
 
 
 #
-ddr
+dd
 ss
 ss
 ss
