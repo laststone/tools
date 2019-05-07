@@ -4,5 +4,5 @@ some test exercise!
 #
 dqw
 sww
-sw
+sww
 sw
