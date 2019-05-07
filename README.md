@@ -3,6 +3,6 @@ some test exercise!
 
 #
 dqw
-sw
+sww
 sw
 sw
