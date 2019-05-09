@@ -3,6 +3,6 @@ some test exercise!
 
 #
 dqw
-swww
+sww
 swww
 swww
