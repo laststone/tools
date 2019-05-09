@@ -2,7 +2,7 @@ some test exercise!
 
 
 #
-dqww
+dqw
 swww
 swww
 swww
