@@ -4,5 +4,5 @@ some test exercise!
 #
 dw
 sw
-s
+sw
 s
