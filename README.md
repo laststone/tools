@@ -4,5 +4,5 @@ some test exercise!
 #
 dwm
 swm
-sw
+swm
 sw
