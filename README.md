@@ -3,6 +3,6 @@ some test exercise!
 
 #
 dw
-s
+sw
 s
 s
