@@ -3,6 +3,6 @@ some test exercise!
 
 #
 dwm
-sw
+swm
 sw
 sw
