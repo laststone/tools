@@ -3,6 +3,6 @@ some test exercise!
 
 #
 swmming
-swmm
+swmming
 swmm
 swmm
