@@ -2,7 +2,7 @@ some test exercise!
 
 
 #
-swmm
+swmming
 swmm
 swmm
 swmm
