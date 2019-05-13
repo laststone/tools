@@ -10,7 +10,7 @@ swmming
 swmming
 swmming
 swmming
-s
+sw
 s
 s
 s
