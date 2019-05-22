@@ -8,7 +8,7 @@ swmmin
 swmmin
 swmmin
 swmmin
-swmming
+swmmin
 swmming
 swmming
 swmming
