@@ -6,7 +6,7 @@ swmmin
 swmmin
 swmmin
 swmmin
-swmming
+swmmin
 swmmin
 swmming
 swmming
