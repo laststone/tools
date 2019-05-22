@@ -10,6 +10,6 @@ swmmin
 swmmin
 swmmin
 swmming
-swmming
+swmmin
 swmming
 swmmin
