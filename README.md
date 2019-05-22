@@ -5,7 +5,7 @@ some test exercise!
 swmmin
 swmmin
 swmmin
-swmming
+swmmin
 swmming
 swmming
 swmming
