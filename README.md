@@ -3,7 +3,7 @@ some test exercise!
 
 #
 swmmin
-swmming
+swmmin
 swmming
 swmming
 swmming
