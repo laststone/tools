@@ -9,7 +9,7 @@ swmmi
 swmmi
 swmmi
 swmmi
-swmmin
+swmmi
 swmmin
 swmmin
 swmmin
