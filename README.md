@@ -11,5 +11,5 @@ swmmi
 swmmi
 swmmi
 swmmi
-swmmin
+swmmi
 swmmi
