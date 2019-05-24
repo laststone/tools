@@ -8,7 +8,7 @@ swmm
 swmm
 swmm
 swmm
-swmmi
+swmm
 swmm
 swmm
 swmm
