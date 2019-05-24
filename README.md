@@ -3,7 +3,7 @@ some test exercise!
 
 #
 swmmi
-swmmin
+swmmi
 swmmin
 swmmin
 swmmin
