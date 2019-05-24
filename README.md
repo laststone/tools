@@ -4,7 +4,7 @@ some test exercise!
 #
 swmm
 swmmi
-swmmi
+swmm
 swmmi
 swmmi
 swmmi
