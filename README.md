@@ -3,7 +3,7 @@ some test exercise!
 
 #
 sw
-swm
+sw
 swm
 swm
 swm
