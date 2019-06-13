@@ -4,7 +4,7 @@ some test exercise!
 #
 swm
 swm
-sw
+swm
 sw
 sw
 sw
