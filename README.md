@@ -5,7 +5,7 @@ some test exercise!
 swm
 swm
 swm
-sw
+swm
 sw
 sw
 sw
