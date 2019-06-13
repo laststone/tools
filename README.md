@@ -8,7 +8,7 @@ swm
 swm
 swm
 swm
-sw
+swm
 sw
 sw
 sw
