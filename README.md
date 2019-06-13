@@ -2,7 +2,7 @@ some test exercise!
 
 
 #
-sw
+swm
 sw
 sw
 sw
