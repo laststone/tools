@@ -12,4 +12,4 @@ swmmi
 swmmi
 swmmi
 swmmi
-swmmin
+swmming
