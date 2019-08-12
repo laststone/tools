@@ -14,5 +14,5 @@ swmming
 swmming
 swmming
 swmmin
-swmmin
+swmming
 
