@@ -18,6 +18,6 @@ swmming
 swmming
 swmming
 swmming
-swmmin
+swmming
 swmmin
 s
