@@ -20,4 +20,4 @@ swmming
 swmming
 swmming
 swmmin
-s
+sw
