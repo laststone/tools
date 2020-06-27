@@ -28,7 +28,7 @@ swmming
 swmming
 swmming
 swmmingss
-swmmi
+swmmin
 
 
 
